@@ -270,13 +270,38 @@ function exercise9(item) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
+  if(typeof item === 'number') {
 
+    switch(item) {
+      case 1:
+      answer9 = 'You Won';
+      break
 
-  // --------------------------------------------
-  // And above here
+      case 7:
+      answer9 = 'You are lucky!';
+      break
+
+      case 101:
+      answer9 = 'Welcome to coding 101';
+      break
+
+      case 1000000:
+      answer9 = 'You are one in a million!';
+      break 
+
+      default:
+      answer9 = 'Thanks for that';
+
+     } 
+  } else if (typeof item !== 'number') {
+      answer9 = 'Please send a number, that was a variable.';
+  
+  }
   // --------------------------------------------
   return answer9;
 }
+exercise9(101);
+exercise9('two');
 
 
 // EXERCISE 10.
