@@ -319,16 +319,34 @@ function exercise10(num10) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  var answer10;
+  if (num10 % 15 === 0) {
+    return "FizzBuzz";
+  }
+  if (num10 % 3 === 0) {
+    return "Fizz";
+  }
+  if (num10 % 5 === 0) {
+    return "Buzz";
+  } else {
+    num10 = "answer10"
+  }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
   return answer10;
 }
+for (let i = 1; i <= 100; i++) {
+  console.log(fizzyBuzz(i));
+}
+
+
 
 // Congrats, you made it to the end! You rock!
 // Did you find this easy or hard? If you used references, which ones helped you? 
 // Please answer in a comment below.
 //
-
+//Honestly, I was okay with the first 6 conditionls and the last 4 were hard, especially the switch case.
+//This was not taught on TreeHouse. My concern is due to all this craming, I will not be able to retain
+//what I am learning. 
 // Email your file to us or commit your file to GitHub and email us a link.
