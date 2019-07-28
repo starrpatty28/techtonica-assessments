@@ -12,13 +12,26 @@
 
 // Exercise 1. Make an empty array named animals
 
+    var animals = [];
+
 // Exercise 2. Add the string "frog" to the array
 
+    var animals = [];
+    var animals = ['frog'];
+    console.log(animals);
 
 // Exercise 3. Add 4 more animals of your choice to the array. Try to add all of them in one line of code.
 
+    var animals = ['frog'];
+    animals.push('lion', 'cheetah', 'rhino', 'duck');
+    console.log(animals);
 
 // Exercise 4. Update the first item in the array to be "gorilla"
+
+    var animals = ['frog'];
+    animals.push('lion', 'cheetah', 'rhino', 'duck');
+    animals.push('gorilla');
+    console.log(animals);
 
 
 // Exercise 5. Print the number of items in the array (use the array property that will give you this information)
