@@ -34,7 +34,13 @@
 // Exercise 3. Call a function within a function -- Write a function called logGreeting2() 
 // that prints a full sentence that contains your name: "Hello! My name is <name>."
 // logGreeting2 should call myName() to get your name.
-// Then print your greeting to the console by calling logGreeting2(). 
+// Then print your greeting to the console by calling logGreeting2().
+
+function logGreeting2(name) {
+  return ('Hello! My name is ' + name);
+}
+console.log(logGreeting2('Alicia'));
+ 
 
 
 // Exercise 4. Write a function that takes 3 parameters that are all numbers.
