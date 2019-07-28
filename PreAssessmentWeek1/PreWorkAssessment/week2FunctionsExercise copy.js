@@ -76,6 +76,11 @@ function musDisc (age) {
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
 
+  function lastName (num, str) {
+
+    
+  }
+
 
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
