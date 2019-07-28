@@ -69,7 +69,6 @@
         i++
         } 
 
-
         var i =7;
         do {
         console.log(i);
@@ -77,7 +76,7 @@
         }
         while (i<=27);
 
-        
+
         for (let i=7; i<=27; i++) {
             console.log(i);
           }
@@ -89,6 +88,26 @@
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
 
+        i = 10;
+        while (i<=100) {
+        console.log(i);
+        i=i+10
+        }
+
+
+        var i = 10;
+        do {
+        console.log(i);
+        i=i+10
+        }
+        while (i<100);
+
+
+        for (let i=10; i<=100; i=i+10) {
+            console.log(i);
+          } 
+
+          
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will 
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
@@ -97,15 +116,31 @@ let counterFour = 1;
 while (counterFour < 2) {
     console.log('HELP ME!')
     counterFour--;
-}
+} 
 
+    //the loop is an infinite loop, because 1 is negaative, it will be true to move forward and minus 1 from 1. Then counterFour becomes 0 which is also less than 2 and will minus 1 from 0 and now one is -1 and it will keep going and never stop
+
+        let counterFour = 1;
+        while (counterFour >= -100) {
+            console.log('HELP ME!')
+            counterFour--;
+        }
+    
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop 
-// (your choice which type) that prints the integers from 0 to that number.
+// (your choice which type) that prints the integers from 0 to that number. 
 
-
+        for (let i=0; i<=37; i++) {
+            console.log(i);
+            } 
+            
 // Exercise 9. Make a variable that contains your favorite integer (this time make sure it's 
 // less than 100). Write a loop (your choice which type) that prints the integers from 0 to 100.
+
+        for (let i=0; i<=100; i++) {
+            console.log(i);
+            }
+            
 // Next to each number it should print "not my favorite number". But next to your favorite
 // number it should print "my favorite number!". Example output (if your favorite number was 2):
 // 0 not my favorite number
@@ -114,6 +149,17 @@ while (counterFour < 2) {
 // 3 not my favorite number
 // ...
 // (Hint - use an if statement in your loop)
+
+        let number = 37;
+
+        for (let i=0; i<=100; i++) {
+        if (i == 37) {
+            console.log(i + ' my favorite number!');
+        } else {
+            console.log(i + ' not my favorite number');
+     }
+ }
+
 
 
 // Exercise 10. In some of the exercises above, we had you write all 3 types of loops, for practice.
