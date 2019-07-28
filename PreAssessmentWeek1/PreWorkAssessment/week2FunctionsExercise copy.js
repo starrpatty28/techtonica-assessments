@@ -101,6 +101,7 @@ console.log("The value of z is " + z);
   //2. I think the value of Y it will be 8 
   //3. I think the value of Z this will be 8
  //I was over thinking y, I thought Y was going to be ran twice
+
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction1 does 
 // 2. What prints out for the value of y
@@ -133,6 +134,7 @@ console.log("The value of b is " + b);
 //5 prints out the value of a
 //I was correct (and happy, I did not know you could make a varaible a function and use the values from the variable in the function.
 
+
 // Exercise 9. This exercise is to practice reading the documentation for functions.
 // String.split() is a function in the JavaScript standard library that you can use in your code.
 // Read about the split() function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
@@ -141,18 +143,27 @@ console.log("The value of b is " + b);
 // Here's a string I made representing my grocery list.
 // Using split() and groceryList, make an array of my grocery list items
 const groceryList = "eggs,carrots,orange juice"
+var food = groceryList.split();
+console.log(food);
+ 
 
 // Here's a string I made representing my morning schedule.
 // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
 // There are multiple ways to do this, but try doing it using only the split() function.
 const mySchedule = 'wake up--->brush teeth--->eat breakfast--->go to work'
 
+const mySchedule = 'wake up--->brush teeth--->eat breakfast--->go to work'
+var sched = mySchedule.split('--->',2);
+console.log(sched);
 
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you? 
 // Please answer in a comment below.
 //
+
+    //Honestly out of the 3 I did thus far, the last 4 
+   //questions were good, becaue it wasnt just about writing code it was about understanding first then writing. This is the better way for me to retain. I figures out a lot on my own but my concern is cramming. Normally When I cram, I do not retain much but hopefully it changes. Thanks.
 
 // Email your file to the course staff, 
 // or commit your file to GitHub and email us a link.
