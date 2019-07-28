@@ -76,10 +76,15 @@ function musDisc (age) {
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
 
-  function lastName (num, str) {
+function numberTimes (num, str) {
+  
+  for (i=0; i < num; i++) {     //i starts at 0, if i is less than the number, loop                                   //through and add 1 each time
+    console.log(str);         //print the word 'string' how ever many times it goes
+  }                          //through the loop, it stops at 5
+ 
+}
+numberTimes(5, 'orange');
 
-    
-  }
 
 
 // Exercise 7. Read the following code (don't run it yet)
