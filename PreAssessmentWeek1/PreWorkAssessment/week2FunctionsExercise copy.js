@@ -47,12 +47,30 @@ console.log(logGreeting2('Alicia'));
 // The function should return the sum of the 3 numbers.
 // Then write some function calls you would use to test your function.
 
+  function paramMeters (int1, int2, int3) {
+  return int1+int2+int3;
+  }
+  //paramMeters(1,2,3);
+  paramMeters(2,4,6);
+  //paramMeters(100,100,500);
+
 
 // Exercise 5. Let's say a museum gives a discount for children ages 14 or under, and seniors 65 or older.
 // Write a function that takes in a person's age and returns true if they should get a discount.
 // Otherwise it should return false.
 // Then write some function calls you would use to test your function.
 
+function musDisc (age) {
+
+  if (age <= 14 || age >= 65){ 
+    return true;
+} else {
+  return false;
+  }
+}
+(musDisc(35));
+//(musDisc(3));
+//(musDisc(70));
 
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
