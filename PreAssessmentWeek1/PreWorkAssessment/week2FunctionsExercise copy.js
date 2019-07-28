@@ -93,9 +93,14 @@ function mysteryFunction1(p1) {
 }
 const y = 4;
 const z = mysteryFunction1(y);
+
 console.log("The value of y is " + y);
 console.log("The value of z is " + z);
 
+  //1. mysteryFunction1 is the name of the function
+  //2. I think the value of Y it will be 8 
+  //3. I think the value of Z this will be 8
+ //I was over thinking y, I thought Y was going to be ran twice
 // Without running the code, write down in a comment:
 // 1. What mysteryFunction1 does 
 // 2. What prints out for the value of y
@@ -112,6 +117,7 @@ function mysteryFunction2(p1, p2) {
 }
 const a = mysteryFunction2(10, 4);
 const b = mysteryFunction2(a, 1);
+
 console.log("The value of a is " + a);
 console.log("The value of b is " + b);
 
@@ -121,6 +127,8 @@ console.log("The value of b is " + b);
 // 3. What prints out for the value of b
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
+
+//mysteryFunction2 is the function.
 
 
 // Exercise 9. This exercise is to practice reading the documentation for functions.
