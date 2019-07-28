@@ -164,7 +164,12 @@ while (counterFour < 2) {
 // But in real life, how would you decide which type of loop to use? You might not have an
 // exact answer, but spend a few minutes thinking about the different types of loops and/or 
 // doing some research and write down your thoughts in a comment below:
-//
+// 
+    //if I want to reiterate through numbers and I know the count and how many times I want to interate,I think I would use a forloop
+
+    //if I did not know my conditoons I would probably doa while loop. Like if I am playing a game, while I am gathering a certain coins on a level (do something) but if I dont know how many coins, this loop will run until all the coins are picked up.
+
+    //if I am playing a game and I pass different levels, I might have a function run "congratulations you made it to the next level" so I would run a do while because I only want that function to run while the player is (doing) passing different levels
 
 
 // Exercise 11. Now we'll practice using nested loops (a loop inside another loop)!
