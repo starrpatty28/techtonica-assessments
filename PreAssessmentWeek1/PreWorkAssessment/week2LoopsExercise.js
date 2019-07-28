@@ -32,11 +32,33 @@
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
-       
+        for (let i=1; i<=5; i++) {
+            console.log(i);
+        }
+        
 
 // Exercise 4. Now we want a loop that prints the integers 
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
+
+        i = 5;
+        while (i>=1) {      //this is called an expression (evualted to be a boolean)
+        console.log(i);
+        i--
+        }
+
+        var i = 5;
+        do {
+        console.log(i);
+        i--
+        }
+        while (i>=1);
+
+
+        for (let i=5; i>=1; i--) {
+            console.log(i);
+        }
+        
 
 
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this 
