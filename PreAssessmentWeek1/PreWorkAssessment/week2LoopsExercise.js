@@ -18,15 +18,21 @@
         i++
         }
 
-
-
 // Exercise 2. Write a 'do while' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
+
+        var i = 1;
+        do {
+        console.log(i);
+        i++
+       }
+        while (i <= 5);
 
 
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
 
+       
 
 // Exercise 4. Now we want a loop that prints the integers 
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
