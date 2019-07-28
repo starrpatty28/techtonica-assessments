@@ -60,9 +60,28 @@
         }
         
 
-
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this 
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
+
+        i = 7;
+        while (i<=27) {
+        console.log(i);
+        i++
+        } 
+
+
+        var i =7;
+        do {
+        console.log(i);
+        i++
+        }
+        while (i<=27);
+
+        
+        for (let i=7; i<=27; i++) {
+            console.log(i);
+          }
+          
 
 
 // Exercise 6. Write a loop that prints numbers between 0 and 100, counting by tens.
