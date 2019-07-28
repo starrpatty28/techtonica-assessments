@@ -36,10 +36,22 @@
 
 // Exercise 5. Print the number of items in the array (use the array property that will give you this information)
 
+    var animals = ['frog'];
+    animals.push('lion', 'cheetah', 'rhino', 'duck');
+    animals.push('gorilla');
+    //console.log(animals)
+    console.log(animals.length);
+
+
+
 
 // Exercise 6. Print the first item in the array
 
-
+    var animals = ['frog'];
+    animals.push('lion', 'cheetah', 'rhino', 'duck');
+    animals.push('gorilla');
+    console.log(animals[0]);
+        
 // Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
 
 
