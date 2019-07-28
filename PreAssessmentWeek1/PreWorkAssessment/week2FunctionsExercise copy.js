@@ -128,8 +128,10 @@ console.log("The value of b is " + b);
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
 
-//mysteryFunction2 is the function.
-
+//mysteryFunction2 is the function that is being ran
+//6 prints out for the value of a
+//5 prints out the value of a
+//I was correct (and happy, I did not know you could make a varaible a function and use the values from the variable in the function.
 
 // Exercise 9. This exercise is to practice reading the documentation for functions.
 // String.split() is a function in the JavaScript standard library that you can use in your code.
