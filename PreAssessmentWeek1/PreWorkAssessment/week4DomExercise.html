@@ -79,10 +79,14 @@ orderList.appendChild(newElement);
 // Exercise 8: Using JavaScript, make it so that when button1 is clicked, 
 // an alert pops up saying "Hi from Techtonica".
 
+var button1 = document.getElementById('button1');
+button1.addEventListener('click', function(){
+  alert('Hi from Techtonica');
+})
 
 // Exercise 9: In your own words, write a few sentences explaining what the DOM is. Write your answer in a comment below:
 
-
+    //The DOM is a area you use in the browser where you code to manipulate the page. It is also the tree model of the HTML on the page. A tree has branches and leaves and HTML had Divs and children.
 
 // The next two exercises combine the DOM with other JavaScript you've learned. Try them for an extra challenge!
 // Exercise 10: Select the elements with the class "myClass" and update the text inside each of them to end with "!"
