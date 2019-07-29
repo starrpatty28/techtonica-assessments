@@ -95,20 +95,58 @@
 // Then write some function calls you would use to test your function.
 
 
+        function arrayNum(array) {
+        
+            for(i=0; i<array.length; i++) {
+            if(array[i]<0) {
+                console.log(array[i],  'negative');
+            } else if (array[i]>100) {
+                console.log(array[i], ' BIG');
+        
+            } else if (array[i]<=100 && array[i]>=0) {
+                console.log(array[i], ' small');
+        
+            }
+            
+            }
+        
+        }
+        arrayNum([-2, 200, 50]);
+        arrayNum([5, 300, 25]);
+
+
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
 
-
+    var me = {name : 'Alicia', favoriteAnimal : 'lion', favoriteNumber : 37 }
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
 
+        var me = {name : 'Alicia', favoriteAnimal : 'lion', favoriteNumber : 37 }
+        //console.log([me]);
+        me.music = "heavy metal"
+        me.team = "49ers"
+        console.log(me);
 
 // Exercise 14. Update the favoriteAnimal value to something different
-
+        var me = {name : 'Alicia', favoriteAnimal : 'lion', favoriteNumber : 37 }
+        //console.log([me]);
+        me.music = "heavy metal"
+        me.team = "49ers"
+        me.favoriteAnimal = 'tiger';
 
 // Exercise 15. Print the value of favoriteAnimal. 
 // Note: there are at least 2 ways to get the value of a key, try to write both.
 
+        var me = {name : 'Alicia', favoriteAnimal : 'lion', favoriteNumber : 37 }
+        //console.log([me]);
+        me.music = "heavy metal"
+        me.team = "49ers"
+        me.favoriteAnimal = 'tiger'
 
+        console.log(me['favoriteAnimal']);
+        //console.log(me.favoriteAnimal);
+
+        
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you? 
 // Please answer in a comment below.
