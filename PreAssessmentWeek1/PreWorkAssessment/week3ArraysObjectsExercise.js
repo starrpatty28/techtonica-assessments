@@ -43,8 +43,6 @@
     console.log(animals.length);
 
 
-
-
 // Exercise 6. Print the first item in the array
 
     var animals = ['frog'];
@@ -54,17 +52,22 @@
         
 // Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
 
-
-// Exercise 6. Print the first item in the array
-
-
-// Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
-
+        var animals = ['frog'];
+        animals.push('lion', 'cheetah', 'rhino', 'duck');
+        animals.push('gorilla');
+        console.log(animals[5]);
 
 // Exercise 8. Remove the last item from the array
 
 
+    var animals = ['lion', 'cheetah', 'rhino', 'duck', 'gorilla'];
+    animals.pop();   
+    console.log(animals);
+    
 // Exercise 9. Now make a new array named assortedThings that contains at least 3 strings and 3 numbers.
+
+    let assortedThings = ['Alicia', 10, 'Nini', 20, 'Shai', 30];
+    console.log(assortedThings);
 
 
 // Exercise 10. Write a for loop that iterates through the assortedThings array and prints each index and item, such as:
@@ -73,6 +76,13 @@
 // Item #2 is Hello World
 // ...
 
+
+        let assortedThings = ['Alicia', 10, 'Nini', 20, 'Shai', 30];
+        let arrayLength = assortedThings.length;
+        //console.log(arrayLength);
+        for (let i = 0; i<arrayLength; i++) {
+        console.log('Item', i, 'is',assortedThings[i]);
+        }
 
 // Exercise 11. Write a function that takes an array of numbers as a parameter. For each number in the array, 
 // print the number and "BIG" if it's over 100, "small" if it's between 0 and 100, and "negative" if 

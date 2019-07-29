@@ -129,7 +129,7 @@ while (counterFour < 2) {
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop 
 // (your choice which type) that prints the integers from 0 to that number. 
-
+        var fav = '37';
         for (let i=0; i<=37; i++) {
             console.log(i);
             } 

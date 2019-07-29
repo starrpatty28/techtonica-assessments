@@ -157,6 +157,7 @@ var sched = mySchedule.split('--->',2);
 console.log(sched);
 
 
+
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you? 
 // Please answer in a comment below.
