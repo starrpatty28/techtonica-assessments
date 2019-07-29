@@ -193,13 +193,21 @@ inside 1
 *********************************** 
 */
 
-for (let outsideCounter = 0; outsideCounter <= 3; ???) {
+for (let outsideCounter = 0; outsideCounter <= 3; i++) {
   console.log("counting down from", outsideCounter);
-  for (let insideCounter = outsideCounter; ???; ???) {
+     for (let insideCounter = outsideCounter; ???; ???) {
       console.log("inside", ???);
   }
   console.log("***********************************")
-}
+}   
+
+        for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
+            console.log("counting down from", outsideCounter)
+            for (let insideCounter = outsideCounter; insideCounter>0; insideCounter--) {
+                console.log("inside", insideCounter);
+            }
+            console.log("***********************************")
+        }
 
 
 // Congrats, you made it to the end!
