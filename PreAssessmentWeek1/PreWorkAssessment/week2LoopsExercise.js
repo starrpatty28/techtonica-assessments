@@ -214,5 +214,6 @@ for (let outsideCounter = 0; outsideCounter <= 3; i++) {
 // Did you find this easy or hard? If you used references, which ones helped you? 
 // Please answer in a comment below.
 //
+    //Questions 1-6 was okay, once I understood how a loop works then it became easier. I prefer to white board my loops personally. #7 I defnitely had to white board, to get an understanding to make the loop stop. #9 was hard but I worked it out bymyself and that made me feel good and built my confidence. #11 was weird when I looked at it so I just worked it out step by step. commented out the second look and worked it out that way, then I worked out the second. I will say the way some of the questions are worded gets me confused. But over all it was okay.  
 
 // Email your file to us or commit your file to GitHub and email us a link.
