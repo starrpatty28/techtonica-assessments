@@ -68,9 +68,13 @@ console.log(document.querySelectorAll('li'));
 
 // Exercise 6: Use JavaScript to find the *number* of list items on the page. console.log the output.
 
+console.log(document.querySelectorAll('li').length);
 
 // Exercise 7: Using JavaScript, create a list item and add it to the end of the ordered list.
 
+let newElement = document.createElement('li');
+let orderList = document.getElementById('ol1');
+orderList.appendChild(newElement);
 
 // Exercise 8: Using JavaScript, make it so that when button1 is clicked, 
 // an alert pops up saying "Hi from Techtonica".
