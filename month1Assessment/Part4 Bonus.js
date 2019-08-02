@@ -50,7 +50,7 @@ function arrayNum(array) {
   //arrayNum([1,60,20,30,40,50,100]); 
   arrayNum([1,2,3,4,5,6,7]); 
 
-  
+
 
 /* Bonus 2. Write a function that takes in 2 string parameters and checks if the 2 strings are anagrams of each other (i.e. you can rearrange the letters of one to make the other).
 Example 1: 
@@ -61,3 +61,28 @@ Example 2:
 - Output: false
 Write some function calls you would use to test your function.
 */
+
+
+function anagrams(str) {
+    for(let i = 0; i<str.length; i++) {
+      console.log(i);
+      if(str[i] === str[i]) {
+        return true;
+      } else {
+        return false;
+      }
+    }  
+  }
+  //anagrams('cat', 'act');
+  anagrams('foo', 'of');
+  
+  //The function takes in 2 strings
+  //function spits out boolean (true or false)
+  
+  //create my function
+  //create a ForLoop to go through my string
+  //console.log(i) to male sure my loop works
+  //if str[i] is the same as str[i] return true
+  //else return false
+  
+// My function is not working but you can see where I was going. I am welcome to any feedback
