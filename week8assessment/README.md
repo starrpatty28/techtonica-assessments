@@ -8,7 +8,7 @@ This week we learned about Express, Node.js, SQL, Postgres. This project lets yo
 
 ![GET Postman](./images/Shot1.png)
 ![Users](./images/Shot2.png)
-![POST Postman](./images/Shot3.pn)
+![POST Postman](./images/Shot3.png)
 ![index.js](./images/Shot4.png)
 
 ## Code Example
