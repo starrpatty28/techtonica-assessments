@@ -6,9 +6,9 @@ This week we learned about Express, Node.js, SQL, Postgres. This project lets yo
  
 ## Screenshots
 
-![GET Postman](Shot1.png)
-![POST Postman](Shot3.png)
-![Server/Module/index.js](3DTest.png)
+![GET Postman](images/Shot1.png)
+![POST Postman](images/Shot3.png)
+![Server/Module/index.js](images/3DTest.png)
 
 
 ## Tech/framework used
