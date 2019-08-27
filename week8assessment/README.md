@@ -30,3 +30,25 @@ export default app => {
 
 };
 ```
+
+## Built with
+<!-- <b>Built with</b> -->
+### Libraries/Tools
+- NodeJS version v12.8.1
+- PostgreSQL
+- Sequelize
+- Postman
+### Frameworks
+- ExpressJS
+## How to start?
+1. Download Project File
+2. Open File In A Text Editor (VS Code Recommended)
+3. Open Terminal and Cd Into Project File
+4. Start Server In Terminal By Running Command "npm start"
+5. Open Browser & Navigate to (http://127.0.0.1:3000/api/books)
+Collapse
+
+
+
+
+
