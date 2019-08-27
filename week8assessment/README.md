@@ -4,6 +4,11 @@ Building a basic bookstore ***RESTful API*** where a user can perform a basic CR
 ## Motivation
 This week we learned about Express, Node.js, SQL, Postgres. This project lets you create your backend and run test using Postman.
 
+## Image
+
+![Get Postman](./images/Shot1.png)
+
+
 ## Code Example
 ***Routes/index.js***
 ```
