@@ -41,5 +41,14 @@ _**Hashing** is a technique that is used to uniquely identify a specific object 
 
 _An main advantage of a **Hash Table** over other table data structures is speed. This advantage is more apparent when the number of entries is large._ 
 
-![Hash Table](./images/hashTable.png)
+![Hash Table](./images/hashTable.png) 
 
+
+## Trees
+
+_A **Tree** is a collection of nodes connected by directed (or undirected) edges. A tree is a **nonlinear** data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees. **A tree has following general properties**: One node is distinguished as a root; Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children. One reason to use trees might be because you want to store information that naturally forms a hierarchy. For example, the file system on a computer. Runtime for tree data structures Θ(log(n)_
+
+__A Tree data structure advantages they provide an efficient insertion and searching. Trees are very flexible data, allowing to move subtrees around with minumum effort._
+
+
+![Tree](./images/tree.png) 
