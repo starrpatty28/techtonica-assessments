@@ -52,3 +52,8 @@ __A Tree data structure advantages they provide an efficient insertion and searc
 
 
 ![Tree](./images/tree.png) 
+
+
+## Trees
+
+_A **Linear Search** sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully._
