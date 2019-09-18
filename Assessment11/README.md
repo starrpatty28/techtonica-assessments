@@ -36,3 +36,10 @@ _The advantage of a **Linked List** are they can grow and shrink during run time
 
 
 ## Hash Table 
+
+_**Hashing** is a technique that is used to uniquely identify a specific object from a group of similar objects. In hashing, large keys are converted into small keys by using hash functions. The values are then stored in a data structure called **Hash Table**. The idea of hashing is to distribute entries (key/value pairs) uniformly across an array. Each element is assigned a key (converted key). By using that key you can access the element in O(1) time. Using the key, the algorithm (hash function) computes an index that suggests where an entry can be found or inserted. **Some examples of how hashing is used in our lives include**: In universities, each student is assigned a unique roll number that can be used to retrieve information about them. In libraries, each book is assigned a unique number that can be used to determine information about the book, such as its exact position in the library or the users it has been issued to etc._<br> 
+
+_An main advantage of a **Hash Table** over other table data structures is speed. This advantage is more apparent when the number of entries is large._ 
+
+![Hash Table](./images/hashTable.png)
+
