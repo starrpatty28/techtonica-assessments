@@ -77,4 +77,9 @@ _This algorithm is called **Depth First Search** because we always prioritize se
 _The only difference between **Depth First Search** and **Breadeth First Search**  is the order in which nodes are processed. In **Depth First Search** you prioritized the deepest node in the frontier, in **Breadeth First Search**  you do the opposite. You explore all the neighbors of our starting node before exploring any other node. After you have explored all the immediate neighbors we explore nodes that are 2 hops away from the starting node. Then 3 hops, then 4 hops, and so on._
 
 
-![BreadthDepth](./images/depthBreadthFirstSearch.png) 
+![BreadthDepth](./images/depthBreadthFirstSearch.png)
+
+
+## Binary Search
+
+_**Binary Search** also known as **Half-Interval Search**, **Logarithmic Search**,or **Binary Chop Search** is the most popular Search algorithm.It is efficient and also one of the most commonly used techniques that is used to solve problems. If all the names in the world are written down together in order and you want to search for the position of a specific name, binary search will accomplish this in a maximum of 35 iterations. Binary search works only on a sorted set of elements. To use binary search on a collection, the collection must first be sorted. When binary search is used to perform operations on a sorted set, the number of iterations can always be reduced on the basis of the value that is being searched._
