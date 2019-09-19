@@ -51,7 +51,8 @@ _A **Tree** is a collection of nodes connected by directed (or undirected) edges
 _A Tree data structure advantages they provide an efficient insertion and searching. Trees are very flexible data, allowing to move subtrees around with minumum effort._
 
 
-![Tree](./images/tree.png) 
+![Tree](./images/tree.png)<br>
+
 
 
 ## Linear Search
