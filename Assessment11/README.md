@@ -63,3 +63,18 @@ comparisons, but the average case can be affected if the search probabilities fo
 _**Linear Search** advantages are the data does not have to be sorted, it does not require access capability. 
 
 ![Tree](./images/linearSearch.png) 
+
+
+## Depth First and Breadth First Searches
+
+_**Depth First Search** is dead simple. First, go to the specified start node. Now, arbitrarily pick one of that node’s neighbors and go there. If that node has neighbors, arbitrarily pick one of those and go there unless we’ve already seen that node. And we just repeat this process until one of two things happens. If reach the specified end node we terminate the algorithm and report success. If we reach a node with only neighbors we’ve already seen, or no neighbors at all, we go back one step and try one of the neighbors we didn’t try last time._
+
+_This algorithm is called **Depth First Search** because we always prioritize searching the deepest node we know about. If there are ties, they are broken arbitrarily, but once we break our first tie (picking which neighbor of the start node to explore first) we will not try to search the other neighbors of the start_node until the first neighbor (and all of its neighbors) have been fully explored._
+
+![BreadthDepth](./images/depthBreadthCompare.png) 
+
+
+_The only difference between **Depth First Search** and **Breadeth First Search**  is the order in which nodes are processed. In **Depth First Search** you prioritized the deepest node in the frontier, in **Breadeth First Search**  you do the opposite. You explore all the neighbors of our starting node before exploring any other node. After you have explored all the immediate neighbors we explore nodes that are 2 hops away from the starting node. Then 3 hops, then 4 hops, and so on._
+
+
+![BreadthDepth](./images/depthBreadthFirstSearch.png) 
