@@ -94,10 +94,16 @@ _Compared to linear search (checking each element in the array starting from the
 
 ## Sorting Algorithms
 
-### Bubble Sort
+### Bubble Sort<br>
+
+_Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted._
+
+_Pros: Bubble sort can be practical if the input is in mostly sorted order with some out- of-order elements nearly in position. Cons: Bubble sort should be avoided in the case of large collections. It will not be efficient in the case of a reverse-ordered collection._
 
 
-### Merge Sort 
+![Bubble Sort](./images/bubbleSort.png)
+
+### Merge Sort<br>
 
 
 
