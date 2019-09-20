@@ -100,6 +100,8 @@ _Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorit
 
 _Pros: Bubble sort can be practical if the input is in mostly sorted order with some out- of-order elements nearly in position. Cons: Bubble sort should be avoided in the case of large collections. It will not be efficient in the case of a reverse-ordered collection._
 
+_When the list is already sorted (best-case), the complexity of bubble sort is only O(n). Bubble sort has a worst-case and average complexity of О(n2)._
+
 
 ![Bubble Sort](./images/bubbleSort.png)
 
