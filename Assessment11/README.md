@@ -82,4 +82,11 @@ _The only difference between **Depth First Search** and **Breadeth First Search*
 
 ## Binary Search
 
-_**Binary Search** also known as **Half-Interval Search**, **Logarithmic Search**,or **Binary Chop Search** is the most popular Search algorithm.It is efficient and also one of the most commonly used techniques that is used to solve problems. If all the names in the world are written down together in order and you want to search for the position of a specific name, binary search will accomplish this in a maximum of 35 iterations. Binary search works only on a sorted set of elements. To use binary search on a collection, the collection must first be sorted. When binary search is used to perform operations on a sorted set, the number of iterations can always be reduced on the basis of the value that is being searched._
+_**Binary Search** also known as **Half-Interval Search**, **Logarithmic Search**,or **Binary Chop Search** is the most popular Search algorithm. It is efficient and also one of the most commonly used techniques that is used to solve problems. If all the names in the world are written down together in order and you want to search for the position of a specific name, binary search will accomplish this in a maximum of 35 iterations. Binary search works only on a sorted set of elements. To use binary search on a collection, the collection must first be sorted. When binary search is used to perform operations on a sorted set, the number of iterations can always be reduced on the basis of the value that is being searched._
+
+_Binary search runs in logarithmic time in the worst case, making O(log n) comparisons. Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search_
+
+_Compared to linear search (checking each element in the array starting from the first), binary search is much faster. Linear search takes, on average N/2 comparisons (where N is the number of elements in the array), and worst case N comparisons. Binary search takes an average and worst-case 𝑙𝑜𝑔2(𝑁) comparisons. So for a million elements, linear search would take an average of 500,000 comparisons, whereas binary search would take 20._
+
+
+![binarySearch](./images/binarySearch.png)
