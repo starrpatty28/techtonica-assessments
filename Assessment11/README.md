@@ -103,10 +103,17 @@ _Pros: Bubble sort can be practical if the input is in mostly sorted order with 
 _When the list is already sorted (best-case), the complexity of bubble sort is only O(n). Bubble sort has a worst-case and average complexity of О(n2)._
 
 
-![Bubble Sort](./images/bubbleSort.png)
+![Bubble Sort](./images/bubbleSort.png)<br>
+
+
 
 ### Merge Sort<br>
 
+_Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. The merge() function is used for merging two halves. Its the the most efficient sorting algorithm, it repeatedly breaks down a list into several sublists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list. Merge Sort is runtime is O(log(n))_
 
+_Pros: The primary advantage of the bubble sort is that it is popular and easy to implement. In the bubble sort, elements are swapped in place without using additional temporary storage. The space requirement is at a minimum. Cons: The main disadvantage of the bubble sort is the fact that it does not deal well with a list containing a huge number of items. The bubble sort requires n-squared processing steps for every n number of elements to be sorted. The bubble sort is mostly suitable for academic teaching but not for real-life applications._
+
+
+![Merge Sort](./images/mergeSort.png)<br>
 
 
