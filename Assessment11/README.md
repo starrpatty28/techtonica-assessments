@@ -90,3 +90,15 @@ _Compared to linear search (checking each element in the array starting from the
 
 
 ![binarySearch](./images/binarySearch.png)
+
+
+## Sorting Algorithms
+
+### Bubble Sort
+
+
+### Merge Sort 
+
+
+
+
