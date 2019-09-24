@@ -1,5 +1,6 @@
 // Question 1 
-// Write a function that takes a “target number”, “min number”, and “max number”. Return whether target number is between the min and the max (inclusive).
+
+// Write a function that takes a “target number”, “min number”,   and “max number”. Return whether target number is between   the  min and the max (inclusive).
 // Example 1:
 // * Input: Target = 3, Min = -1, Max = 3
 // * Return: True
@@ -34,47 +35,40 @@ console.log(minMax(100, 50, 10)); //false
 
 // Question #2
 
-let fruits = ['apple', 'banana', 'sandwich', 'banana', 'cookie', 'cookie', 'banana']; 
-
- let counts = {}; 
- let compare = 0; 
- let frequent; 
- (function(array) {  
-  for (let i = 0; i < array.length; i++) {  //forloop through array
-      //console.log(i);
-    let name = array[i]; 
-      //console.log(name); //loops works
-      if(counts[name] === undefined) { 
-        counts[name] = 1;
-        //console.log(counts[name]); = 1
-      }else {
-        counts[name] = counts[name] + 1;
-          //console.log(counts[name] +1)
-      } 
-      if(counts[name] > compare){
-             compare = counts[name];
-              //console.log(counts[name]);
-             frequent = fruits[i];
-             console.log(fruits[i]);
+function occurAlot(array){
+  let fruits = array[0];
+    //console.log(array[0]);
+  let arr = 0;
+  for(var i = 0; i < array.length; i++){
+    //console.log(array[i]); 
+    let counter = 0;
+    for(var j = 0; j < array.length; j++){ 
+      //console.log(array[j]); will loop through while its equal but stops at length
+      if(array[i]===array[j]){
+        counter++;
+      }
     }
-  } 
-  return frequent;
-});
-
+    if(counter > arr){
+      tmp = counter;
+      fruits = array[i];
+    }
+  }
+  return fruits;
+} 
+occurAlot(['apple', 'banana', 'sandwich', 'banana', 'cookie', 'cookie', 'banana]']);
 
 //Function takes in an array
 //Function spits out the most frequent word
 
 //Game Plan
-//Create a empty object, empty variable for 0, frequent var
-//create a function with forloop to go through array 
-//ceate another variable to give to 'i' which just looped
-// if name is undefined, return 1
-  //console.log name
-//else name +1
-//if name is greater than compare, then compare now equals name
-//frequent = fruits[i]
-//return frequent, no answer!!
+//create an variable fruits that equals the array[0] 'apple'
+//create an empty variable to store
+//create an forloop to loop through array.length, console.log i to make sure its looping
+//create another foorloop to push through while they equal to eachother but not longer than the length 
+//if array[i] and array[j] are equal, incriment
+//Another if statement outside the second forloop to check if the counter is greater 
+//assign fruits to array[i]
+//return fruits
 //this challenge sucks!!!!!!!
 
 
