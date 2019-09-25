@@ -1,8 +1,11 @@
 import React from "react"
 
+//Object deconstructing
 const { useEffect, useState } = React
 
 function App() {
+  
+  //useState (Hook) lets us define a variable and provide a function for updating that variable later on
   const [side, setSide] = useState(1)
   const [heads, setHeads] = useState(0)
   const [tails, setTails] = useState(0)
@@ -23,7 +26,7 @@ function App() {
 
     setSide(landedOn)
   }
-
+  //Automatically tossing the coin
   useEffect(() => {
     const interval = setInterval(() => {
       if (!isPaused) {
