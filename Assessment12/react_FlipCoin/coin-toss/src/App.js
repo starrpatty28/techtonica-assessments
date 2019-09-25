@@ -10,9 +10,11 @@ function App() {
 
   const tossed = heads + tails
 
+  //Coin Toss Function
   const tossCoin = () => {
     const landedOn = Math.round(Math.random())
 
+    //If Statement
     if (landedOn === 1) {
       setHeads(heads + 1)
     } else {
