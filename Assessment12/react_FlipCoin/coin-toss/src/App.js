@@ -1,13 +1,22 @@
 import React from "react"
 
-function App() {
-  const tossCoin = () => {
-    alert("The coin was tossed")
+const { useState } = React
+
+
+function App() { 
+  const [side, setSide] = useState(1)
+  const [tossed, setTossed] = useState(0)
+
+  const tossCoin = () => { 
+    const landedOn = Math.round(Math.random())
+    setSide(landedOn)
+    setTossed(tossed + 1)
   }
 
   return (
     <div>
-      The coin toss app will go here!
+      <p>The coin has been tossed {tossed} times.</p>
+      <p>It landed on {side === 1 ? "heads" : "tails"}</p>
       <button onClick={tossCoin}>Toss coin</button>
     </div>
   )
