@@ -4,6 +4,7 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-variant-numeric: tabular-nums;
+  background-color: azure
 }
 
 code {

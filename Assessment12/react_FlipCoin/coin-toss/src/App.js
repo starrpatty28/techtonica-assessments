@@ -47,8 +47,7 @@ function App() {
       </ul>
       <button onClick={() => setIsPaused(!isPaused)}>
         {!isPaused ? "Pause" : "Continue"}
-      </button>
-      {isPaused && <button onClick={tossCoin}>Toss coin</button>}
+      </button>{isPaused && <button onClick={tossCoin}>Toss Coin Count</button>}
     </div>
   )
 }
