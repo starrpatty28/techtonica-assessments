@@ -38,8 +38,9 @@ getPlanet(num) {
   render() {
     return (
       <div className="App">
-        <img src="https://media.giphy.com/media/3o6gaUYip73ooXZWEw/giphy.gif" 
-        alt="Italian Trulli"></img>
+        <img src="https://media.giphy.com/media/6fScAIQR0P0xW/giphy.gif" 
+        alt="Stars Wars">
+        </img>
         <h1>{this.state.planet}</h1>
         <button type="button" onClick={this.onClick}>
           Click Me!
