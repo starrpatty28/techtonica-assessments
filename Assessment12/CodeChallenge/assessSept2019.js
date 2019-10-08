@@ -149,7 +149,7 @@ evenOdd(11);
 //if its odd, *+1
 //return results you pushed too
 
-//I think this Algorithim is O(logn) because you have to keep looping through the array and the array keeps getting split each time to get down to 1
+//I think this Algorithim is O(N) because your not loopin through an array and the input is just 1 number. The inout will not change or get bigger 
 
 
 //Question #5 
@@ -173,4 +173,4 @@ console.log(factorial(3));
 //if Integer is less than  or equal to 0, return 1
 //else return Int, * the function (factorial(int-1))
 
-//I think this Algorithim is O(logn) because you have to keep looping through the array and the array keeps getting split each time to get down to 1
+//I think this function is O(n2) because your are using the int twice in the function and your looping through the function until your done. I do not feel right about this answer so this is defnitely a guess. We defnitwly needed to spend more time on this as I know others struggled on this. 
