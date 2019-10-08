@@ -1,7 +1,8 @@
 import React from "react"
 
+
 //Object deconstructing
-const { useEffect, useState } = React
+const { useEffect, useState, } = React
 
 function App() {
   
@@ -35,6 +36,8 @@ function App() {
     }, 10)
     return () => clearInterval(interval)
   })
+
+  
 
   return (
     <div>

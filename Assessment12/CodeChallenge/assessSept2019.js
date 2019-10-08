@@ -28,7 +28,9 @@ console.log(minMax(100, 50, 10)); //false
 //if target_num (if target num is less than minimum)
 //if target_num(if target is less than max)
 //return true (use || or method)
-//else return false 
+//else return false
+
+// I think this functions is O(1) because its just cheking one thing, true or false 
 
 
 
@@ -71,6 +73,8 @@ occurAlot(['apple', 'banana', 'sandwich', 'banana', 'cookie', 'cookie', 'banana]
 //return fruits
 //this challenge sucks!!!!!!!
 
+//I think this function is a O(n2) due to the two forloops and we and they dominate the other notations.
+
 
 
 
@@ -106,6 +110,8 @@ names(name);
 //if last name match replace it to 'same'
 //return the array
 //call function
+
+//I think this function is a O(N) due to the forloop and its only one
 
 
 // Question #4
@@ -143,6 +149,9 @@ evenOdd(11);
 //if its odd, *+1
 //return results you pushed too
 
+//I think this Algorithim is O(logn) because you have to keep looping through the array and the array keeps getting split each time to get down to 1
+
+
 //Question #5 
 
 let factorial = function fact(int) {
@@ -163,3 +172,5 @@ console.log(factorial(3));
 //create a function with a condtional
 //if Integer is less than  or equal to 0, return 1
 //else return Int, * the function (factorial(int-1))
+
+//I think this Algorithim is O(logn) because you have to keep looping through the array and the array keeps getting split each time to get down to 1
