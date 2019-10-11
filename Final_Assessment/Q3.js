@@ -107,7 +107,11 @@ console.log(findSmallest(start));
 // Target number: 5
 // Returns: False (There is no node with value 5 in the tree)
 // Save the following code and text in the same file:
-// Include this comment above your answer: // Part 3
+// Include this comment above your answer: 
+
+
+
+// Part 3
 // Write the function
 // What is the runtime of this function? Briefly explain why.
 // Unit tests: What are some inputs you would test to make sure this function works? Please give specific example inputs.
@@ -127,6 +131,8 @@ function binarySearch(node, target) {
   }
   return false;
 }
+console.log(binarySearch(start, 6));
+console.log(binarySearch(start, 5));
 
 //Function takes in a node and target
 //Function spits out boolean
