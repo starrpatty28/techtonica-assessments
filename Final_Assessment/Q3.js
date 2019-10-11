@@ -25,8 +25,8 @@ class Node
     constructor(value) 
     { 
         this.value = value; 
-        this.left_child = null; 
-        this.right_child = null; 
+        this.left_child = left_child; 
+        this.right_child = left_child; 
     } 
 } 
 
