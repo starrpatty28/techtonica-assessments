@@ -53,10 +53,28 @@ app.use(morgan('combined')) // use 'tiny' or 'combined'
 
 // App Routes - Auth
 app.get('/', (req, res) => res.send('hello world'))
-app.get('/endangered', (req, res) => main.getTableData(req, res, db))
-app.post('/endangered', (req, res) => main.postTableData(req, res, db))
-app.put('/endangered', (req, res) => main.putTableData(req, res, db))
-app.delete('/endangered', (req, res) => main.deleteTableData(req, res, db))
+app.get('/animal', (req, res) => main.getAnimalData(req, res, db))
+app.get('/scientistinput', (req, res) => main.getScientistInputData(req, res, db))
+app.get('/scientisttrack', (req, res) => main.getScientistTrackData(req, res, db))
+
+//********************************************************************************************/
+//app.post('/endangered', (req, res) => main.postTableData(req, res, db))
+app.post('/animal', (req, res) => main.postAnimalData(req, res, db))
+app.post('/scientistinput', (req, res) => main.postScientistInputData(req, res, db))
+app.post('/scientisttrack', (req, res) => main.postScientisTrackData(req, res, db))
+
+//*******************************************************************************************/
+app.put('/animal', (req, res) => main.putAnimalData(req, res, db))
+app.put('/scientistinput', (req, res) => main.putScientistInputData(req, res, db))
+app.put('/scientisttrack', (req, res) => main.putScientistTrackData(req, res, db))
+
+//*******************************************************************************************/
+
+app.delete('/animal', (req, res) => main.deleteAnimalData(req, res, db))
+app.delete('/scientistinput', (req, res) => main.deleteScientistInputData(req, res, db))
+app.delete('/scientisttrack', (req, res) => main.deleteScientistTrackData(req, res, db))
+//*******************************************************************************************/
+
 
 // App Server Connection
 app.listen(process.env.PORT || 3000, () => {
