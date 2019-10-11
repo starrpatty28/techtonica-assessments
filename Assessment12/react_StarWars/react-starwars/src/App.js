@@ -38,7 +38,7 @@ getPlanet(num) {
   render() {
     return (
       <div className="App">
-        <img src="https://media.giphy.com/media/fBfjePsZTC6w8/giphy.gif" 
+        <img src="https://media.giphy.com/media/YFFIZPjUGUF8v7xwch/giphy.gif" 
         alt="Stars Wars">
         </img>
         <h1>{this.state.planet}</h1>
