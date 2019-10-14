@@ -141,8 +141,7 @@ module.exports = {
   getScientistTrackData,
   postScientistTrackData,
   putScientistTrackData,
-  deleteScientistTrackData
- 
+  deleteScientistTrackData 
 }
 
 
