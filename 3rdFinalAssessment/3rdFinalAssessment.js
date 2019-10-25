@@ -1,23 +1,25 @@
-// function primeNum(int){
-//   // if(typeof int !== Integer){
-//   //   return "Please enter an Integer";
-//   // }
-//   if(int % 3 === 0) {
-//     return false
-//   }
-//   else {
-//     return true;
-//   }
-// }
-// console.log(primeNum(7));
-// console.log(primeNum(15));
-//console.log(primeNum("string"));
+function primeNum(int){
+  if(int <= 2 ) {
+    return false;
+  }
+  for(let i = 2; i <= Math.sqrt(int); i++) {
+    if(int % i === 0) {
+      return false;
+    }
+  } 
+  return true;
+}
+console.log(primeNum(7));
+console.log(primeNum(15));
 
-//Function takes in a Int
-//Function spit out a boolean
+//Function takes in a number
+//Function spits out an Boolean
 
-//I wanted to check if the number given was an integer and not a sting....will work on that later
-//Create an if/else statement asking if the number is modelous with a 0 remainder. This was my thought process
+//Game Plan
+// Check if int is less than 2, if it is, its not a Prime
+//Create a forloop but start it at 2 and loop through the sqrt of the the number given
+//Check to see if i is divisiable by the number given, if so, that number is cleary not a prime, its false
+//else true 
 //I beleive this function has a run time of O(N)
 
 // function recursionFunc(int) {
@@ -40,27 +42,26 @@
 
 //I am clearly having problems with my debugger as I am unable to run anyting on this problem
 
-// function checkArr(array){
-//   // if(typeof array !== "Array") {
-//   //   return "Please enter a Array";
-//   // }
-//   for(i = 0; i < array.length; i++) {
-//     //console.log(i);
-//     //console.log(array.beginsWith);
-//     if(array.beginsWith === "S") {
-//       return true;
-//     }
-//     else return false;
-//   }
-// }
-// console.log(checkArr(["bat", "sat", "superb", "ship", "bell"]))//True
+function checkArr(array){ 
+  for(i = 0; i < array.length; i++) {
+    //console.log(i);
+    //console.log(array[i].charAt(0));
+     if(array[i+1].charAt(0) === array[i+2].charAt(0) && array[i+1].charAt(0) === array[i+3].charAt(0))
+      return true;
+  }
+  return false;
+}
+//console.log(checkArr(["bat", "sat", "superb", "ship", "bell"]))//True
 //console.log(checkArr(["ax", "art", "radio", "frog"]))  //False
 
 //Function takes in an array
 //Function spits out an Boolean
 
 //Game Plan
-//Loop through the array and console.log to make sure the loops runs through correctly
-//Figure out a way to check the first letters of each item array[i] and if they match true
-//Or not false
-  //I remeber there is a way to check the first item and of course I cannot remeber so I will work this out...
+//Create a forloop to loop through the arrays length
+  //console.log i
+  //console.log array[i].charAt(0) the first letters
+//Check to see if the first letter  is the same of the first second letter and the same as the 3rd first letter, if it is, then retrun true
+//else false
+  //It passes the first test. I am missing something but I do not know what.O(N) 
+//Bad anxiety and the proctors are talking and laughing during the test, unacceptable and irritating.
